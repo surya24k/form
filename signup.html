@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="sign.css">
+
+    <style>
+         img{
+            margin: auto;
+        }
+        div{
+            
+            border: 2px solid black;
+            border-radius: 20px;
+            height: 585px;
+            width: 590px;
+            margin-left: 280px;
+            margin-top: 100px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        h4{
+            font-size: 20px;
+            text-align: center;
+        }
+        h1{
+            font-size: 50px;
+            color: rgb(0, 0, 0);
+        }
+        h5{
+            font-size: 20px;
+        }
+
+        div{
+            
+            margin-left: 270px;
+            margin-top: 100px;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+        input{
+            padding: 10px;
+        }
+        input[type=number]{
+            color: rgb(0, 136, 248);
+            border-color: rgb(0, 0, 0);
+            border-radius: 5px;
+        }
+        input[type=submit]{
+            border-radius: 60px;
+            background-color: rgb(0, 119, 255);
+        }
+        input[type=submit]{
+            border-radius: 60px;
+            color: #fff;
+        }
+        input[type=reset]{
+            border-radius: 60px;
+            background-color: rgb(251, 251, 252);
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="surya"><br>
+    <img src="skkk.png" alt="font" width="200px">
+    <form action="signup.html"><br>
+    <input type="text" name="fn" placeholder="First name" required>
+    <input type="text" name="mn" placeholder="Middle name">
+    <input type="text" name="ln" placeholder="last name" required><br><br>
+    <input type="email" name="mail" placeholder="Mail ID" required>
+    <input type="number" name="contact" placeholder="phone">
+    <input type="date" name="dob"><br><br>
+    <input type="age" name="age" placeholder="age"><br><br>
+    <input type="radio" id="M" name="Gender">
+    <label for="M">Male</label>
+    <input type="radio" id="F" name="Gender">
+    <label for="F">Female</label>
+    <input type="radio" id="O" name="Gender">
+    <label for="O">other</label><br><br>
+    <input type="checkbox" id="SMS" name="Notification" checked>
+    <label for="SMS">SMS Notification</label><br><br>
+    <input type="checkbox" id="Mail" name="Notification">
+    <label for="SMS">Mail Notification</label><br><br>
+    <input type="checkbox" id="Whatsapp" name="Notification">
+    <label for="SMS">Whatsapp Notification</label><br><br>
+    <select name="country" multiple>
+        <option value="India">Select</option>
+        <option value="India">India</option>
+        <option value="India">USA</option>
+        <option value="India">Germany</option>
+    </select><br><br>
+    <input type="submit" value="signup">
+    <input type="reset">
+</form>
+</div>   
+</body>
+</html>

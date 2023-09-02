@@ -1,0 +1,10 @@
+body{
+    margin: auto;
+    background-image: url(qwer.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.surya{
+    background-color: #fff;
+    backdrop-filter: blur(200px);
+}
